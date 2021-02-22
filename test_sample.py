@@ -6,3 +6,11 @@ def capitalize_string(s):
 
 def test_capitalize_string():
     assert capitalize_string('test') == 'Test'
+
+
+def inc(x):
+    return x + 1
+
+
+def test_answer():
+    assert inc(3) == 4
